@@ -1,0 +1,52 @@
+@import 'src/index.scss';
+
+header {
+
+    nav {
+        background-color: rgb(209, 220, 236);
+    }
+    
+    .logowrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    h1 {
+        color:$base-color;
+    }
+
+    button {
+        padding: .5em 1em;
+        height: 2.5em;
+        background-color: $base-color;
+        border: none;
+        color: rgb(255,255,255);
+
+        &:hover {
+            opacity: .8;
+            cursor: pointer;
+        }
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+        padding: 1em;
+
+        a {
+            text-decoration: none;
+
+            &:hover {
+                font-weight: bold;
+            }
+        }
+        
+        li {
+            margin-right: 1.5em;
+            color: $base-col-grey;
+        }
+
+    }
+}
+
